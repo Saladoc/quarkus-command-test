@@ -1,0 +1,11 @@
+bot:
+  token: change me
+  cmd:
+    annotation: true  # Change to disable annotation command
+    override: true    # Change to disable override command
+quarkus:
+  arc:
+    exclude-types:
+      - net.kautler.command.api.restriction.jda.**
+      - net.kautler.command.handler.CommandHandlerJda
+      - net.kautler.command.parameter.converter.jda.**
