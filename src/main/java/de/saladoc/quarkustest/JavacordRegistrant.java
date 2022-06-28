@@ -12,7 +12,7 @@ import javax.inject.Inject;
 import java.util.List;
 
 @ApplicationScoped
-public class JavacordRegistrar {
+public class JavacordRegistrant {
 
     @Inject
     Logger logger;
